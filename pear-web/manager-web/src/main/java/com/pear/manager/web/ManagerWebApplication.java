@@ -13,13 +13,7 @@ import java.util.Locale;
  */
 @SpringBootApplication
 public class ManagerWebApplication {
-
-    @Autowired
-    private static MessageSource messageSource;
-
     public static void main(String[]args){
-
         SpringApplication.run(ManagerWebApplication.class);
-        //sSystem.out.print(message);
     }
 }
