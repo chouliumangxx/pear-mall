@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pear-web/cart-web/cart-web.iml" filepath="$PROJECT_DIR$/pear-web/cart-web/cart-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-manager/manager-dao/manager-dao.iml" filepath="$PROJECT_DIR$/pear-manager/manager-dao/manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-manager/manager-interface/manager-interface.iml" filepath="$PROJECT_DIR$/pear-manager/manager-interface/manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-manager/manager-pojo/manager-pojo.iml" filepath="$PROJECT_DIR$/pear-manager/manager-pojo/manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-manager/manager-service/manager-service.iml" filepath="$PROJECT_DIR$/pear-manager/manager-service/manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-web/manager-web/manager-web.iml" filepath="$PROJECT_DIR$/pear-web/manager-web/manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-common/pear-common.iml" filepath="$PROJECT_DIR$/pear-common/pear-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-content/pear-content.iml" filepath="$PROJECT_DIR$/pear-content/pear-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-manager/pear-manager.iml" filepath="$PROJECT_DIR$/pear-manager/pear-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-order/pear-order.iml" filepath="$PROJECT_DIR$/pear-order/pear-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-parent/pear-parent.iml" filepath="$PROJECT_DIR$/pear-parent/pear-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-search/pear-search.iml" filepath="$PROJECT_DIR$/pear-search/pear-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-sso/pear-sso.iml" filepath="$PROJECT_DIR$/pear-sso/pear-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-web/pear-web.iml" filepath="$PROJECT_DIR$/pear-web/pear-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-web/portal-web/portal-web.iml" filepath="$PROJECT_DIR$/pear-web/portal-web/portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-web/search-web/search-web.iml" filepath="$PROJECT_DIR$/pear-web/search-web/search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-web/sso-web/sso-web.iml" filepath="$PROJECT_DIR$/pear-web/sso-web/sso-web.iml" />
+    </modules>
+  </component>
+</project>

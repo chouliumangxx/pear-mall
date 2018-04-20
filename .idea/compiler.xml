@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cart-web" />
+        <module name="manager-dao" />
+        <module name="manager-interface" />
+        <module name="manager-pojo" />
+        <module name="manager-service" />
+        <module name="manager-web" />
+        <module name="pear-common" />
+        <module name="pear-sso" />
+        <module name="portal-web" />
+        <module name="search-web" />
+        <module name="sso-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="cart-web" target="1.9" />
+      <module name="manager-dao" target="1.9" />
+      <module name="manager-interface" target="1.9" />
+      <module name="manager-pojo" target="1.9" />
+      <module name="manager-service" target="1.9" />
+      <module name="manager-web" target="1.9" />
+      <module name="pear-common" target="1.9" />
+      <module name="pear-content" target="1.9" />
+      <module name="pear-manager" target="1.9" />
+      <module name="pear-order" target="1.9" />
+      <module name="pear-parent" target="1.9" />
+      <module name="pear-search" target="1.9" />
+      <module name="pear-sso" target="1.9" />
+      <module name="portal-web" target="1.9" />
+      <module name="search-web" target="1.9" />
+      <module name="sso-web" target="1.9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

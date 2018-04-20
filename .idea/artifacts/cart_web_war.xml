@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cart-web:war">
+    <output-path>$PROJECT_DIR$/pear-web/cart-web/target</output-path>
+    <root id="archive" name="cart-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="cart-web:war exploded" />
+    </root>
+  </artifact>
+</component>
