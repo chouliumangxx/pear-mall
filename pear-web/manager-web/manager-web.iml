@@ -27,6 +27,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="manager-interface" />
+    <orderEntry type="module" module-name="manager-pojo" />
+    <orderEntry type="module" module-name="pear-common" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.5.11.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.5.11.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.15.RELEASE" level="project" />
@@ -74,5 +77,11 @@
     <orderEntry type="library" name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-test:4.3.15.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.11.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.spring.boot:dubbo-spring-boot-starter:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:dubbo:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.21.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:1.5.11.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:1.5.11.RELEASE" level="project" />
   </component>
 </module>

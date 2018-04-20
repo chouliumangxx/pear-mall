@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/pear-web/cart-web/cart-web.iml" filepath="$PROJECT_DIR$/pear-web/cart-web/cart-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pear-web/common-web/common-web.iml" filepath="$PROJECT_DIR$/pear-web/common-web/common-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/pear-manager/manager-dao/manager-dao.iml" filepath="$PROJECT_DIR$/pear-manager/manager-dao/manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/pear-manager/manager-interface/manager-interface.iml" filepath="$PROJECT_DIR$/pear-manager/manager-interface/manager-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/pear-manager/manager-pojo/manager-pojo.iml" filepath="$PROJECT_DIR$/pear-manager/manager-pojo/manager-pojo.iml" />
