@@ -10,7 +10,6 @@ import org.springframework.context.annotation.ImportResource;
  */
 @SpringBootApplication
 @ImportResource(locations = "classpath:/dubbo/dubbo-manager-service.xml")
-@MapperScan(basePackages = "com.pear.manager.dao")
 public class ManagerServiceApplication {
     public static void main(String[]args){
         SpringApplication.run(ManagerServiceApplication.class);
