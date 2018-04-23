@@ -1,4 +1,4 @@
-package com.pear.manager.web.Api;
+package com.pear.manager.web.api;
 
 import com.pear.manager.pojo.Admin;
 import io.swagger.annotations.ApiOperation;
