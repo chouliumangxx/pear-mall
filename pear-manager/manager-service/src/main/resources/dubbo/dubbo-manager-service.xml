@@ -10,5 +10,5 @@
     <dubbo:protocol name="dubbo" port="20891" />
     <dubbo:registry protocol="zookeeper" address="111.231.233.152:2181"/>
     <dubbo:service interface="com.pear.manager.service.ManagerAdminService" ref="managerAdminService" timeout="300000"/>
-
+    <dubbo:service interface="com.pear.manager.service.SysAdminService" ref="sysAdminService" timeout="300000"/>
 </beans>

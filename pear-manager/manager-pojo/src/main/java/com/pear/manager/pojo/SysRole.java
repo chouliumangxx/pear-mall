@@ -16,8 +16,8 @@ public class SysRole extends BaseEntity implements Serializable {
     private String name;
     private String keyword;
     private String sysflag;
+    private String description;
 
-    private Set<SysRole> sysRoles = new HashSet<>();
     private Set<SysPermission> sysPermissions = new HashSet<>();
 
     public String getId() {
@@ -52,12 +52,12 @@ public class SysRole extends BaseEntity implements Serializable {
         this.sysflag = sysflag;
     }
 
-    public Set<SysRole> getSysRoles() {
-        return sysRoles;
+    public String getDescription() {
+        return description;
     }
 
-    public void setSysRoles(Set<SysRole> sysRoles) {
-        this.sysRoles = sysRoles;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public Set<SysPermission> getSysPermissions() {

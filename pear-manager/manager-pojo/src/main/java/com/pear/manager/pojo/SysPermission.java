@@ -2,11 +2,13 @@ package com.pear.manager.pojo;
 
 import com.pear.common.base.entity.BaseEntity;
 
+import java.io.Serializable;
+
 /**
  * 系统权限
  * create by cx is 2018/4/23
  */
-public class SysPermission extends BaseEntity {
+public class SysPermission extends BaseEntity implements Serializable {
 
     private String id;
     private String name;

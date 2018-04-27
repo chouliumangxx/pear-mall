@@ -12,7 +12,6 @@ import java.util.Map;
  * shiro配置文件
  * create by cx is 2018/4/24
  */
-@Configuration
 public class ShiroConfig {
     @Bean
     public ShiroFilterFactoryBean shirFilter(SecurityManager securityManager) {

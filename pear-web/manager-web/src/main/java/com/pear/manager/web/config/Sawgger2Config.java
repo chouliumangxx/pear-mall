@@ -22,7 +22,7 @@ public class Sawgger2Config {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.pear.manager.web.Api"))
+                .apis(RequestHandlerSelectors.basePackage("com.pear.manager.web.api"))
                 .paths(PathSelectors.any())
                 .build();
     }
