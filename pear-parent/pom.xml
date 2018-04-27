@@ -39,6 +39,8 @@
         <dubbo.version>2.5.8</dubbo.version>
         <zookeeper.version>3.4.6</zookeeper.version>
         <zkclient.version>0.1</zkclient.version>
+
+        <qcloudsms.version>1.0.2</qcloudsms.version>
     </properties>
 
     <dependencyManagement>
@@ -172,6 +174,11 @@
                 <version>${zkclient.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.github.qcloudsms</groupId>
+                <artifactId>qcloudsms</artifactId>
+                <version>${qcloudsms.version}</version>
+            </dependency>
         </dependencies>
 
     </dependencyManagement>

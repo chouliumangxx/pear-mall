@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/pear-web/search-web/pom.xml" />
         <option value="$PROJECT_DIR$/pear-web/manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/pear-web/common-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pear-sms/pom.xml" />
       </list>
     </option>
   </component>

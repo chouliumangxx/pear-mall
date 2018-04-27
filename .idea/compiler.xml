@@ -15,6 +15,7 @@
         <module name="manager-service" />
         <module name="manager-web" />
         <module name="pear-common" />
+        <module name="pear-sms" />
         <module name="pear-sso" />
         <module name="portal-web" />
         <module name="search-web" />
@@ -35,6 +36,7 @@
       <module name="pear-order" target="1.9" />
       <module name="pear-parent" target="1.9" />
       <module name="pear-search" target="1.9" />
+      <module name="pear-sms" target="1.9" />
       <module name="pear-sso" target="1.9" />
       <module name="portal-web" target="1.9" />
       <module name="search-web" target="1.9" />
