@@ -1,8 +1,8 @@
 package com.pear.manager.service.impl;
 
-import com.pear.manager.dao.SysAdminDao;
 import com.pear.manager.pojo.SysAdmin;
 import com.pear.manager.service.SysAdminService;
+import com.pear.manager.service.dao.SysAdminDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

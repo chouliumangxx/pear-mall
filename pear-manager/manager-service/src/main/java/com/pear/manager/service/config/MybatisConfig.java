@@ -1,9 +1,10 @@
 package com.pear.manager.service.config;
 
 
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -23,23 +24,28 @@ import java.io.IOException;
 public class MybatisConfig {
 
     @Bean(name = "sqlSessionFactoryBean")
-    public SqlSessionFactoryBean sqlSessionFactoryBean(@Qualifier("dataSource")DataSource dataSource) throws IOException {
-        SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
+    public SqlSessionFactory sqlSessionFactoryBean(@Qualifier("dataSource")DataSource dataSource) throws Exception {
+        /*SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
         sqlSessionFactoryBean.setDataSource(dataSource);
         ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
         //Resource mybatisConfigXml = resolver.getResource("classpath:mybatis-config.xml");
         //sqlSessionFactoryBean.setConfigLocation(mybatisConfigXml);
-        Resource[] resources = resolver.getResources("classpath*:mapping/*.xml");
+        Resource[] resources = resolver.getResources("classpath*:mapper/*.xml");
         sqlSessionFactoryBean.setMapperLocations(resources);
-        return sqlSessionFactoryBean;
+        return sqlSessionFactoryBean.getObject();*/
+
+        PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
+        SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
+        sqlSessionFactoryBean.setDataSource(dataSource);
+        sqlSessionFactoryBean.setMapperLocations(resolver.getResources("classpath*:/mapper/*.xml"));
+        return sqlSessionFactoryBean.getObject();
     }
 
     @Bean
     public MapperScannerConfigurer mapperScannerConfigurer(){
         MapperScannerConfigurer configurer = new MapperScannerConfigurer();
-        configurer.setBasePackage("com.pear.manager.dao");
-        configurer.setAnnotationClass(Repository.class);
+        configurer.setBasePackage("com.pear.manager.service.dao");
+        configurer.setAnnotationClass(Mapper.class);
         return configurer;
     }
-
 }

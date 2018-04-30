@@ -3,6 +3,7 @@ package com.pear.manager.web.api;
 import com.pear.common.utils.IdGenUtils;
 import com.pear.manager.pojo.SysAdmin;
 import com.pear.manager.service.SysAdminService;
+import com.pear.manager.web.model.SysAdminModel;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -26,7 +27,7 @@ public class SysAdminController {
 
     @ApiOperation(value="添加用户", notes="")
     @RequestMapping(value = {""},method = RequestMethod.POST)
-    public void add(SysAdmin model){
+    public void add(SysAdminModel model){
         SysAdmin entity = new SysAdmin();
         entity.setId(IdGenUtils.getId());
         entity.setPassword(model.getPassword());

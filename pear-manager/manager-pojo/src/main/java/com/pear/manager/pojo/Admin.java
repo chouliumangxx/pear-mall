@@ -1,6 +1,5 @@
 package com.pear.manager.pojo;
 
-import lombok.Data;
 
 import java.io.Serializable;
 
